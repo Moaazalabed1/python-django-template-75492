@@ -1,4 +1,4 @@
-FROM python:alpine3.17
+FROM python:3.13.0a2-alpine3.17
 
 WORKDIR /usr/src/app
 RUN pip install Django==4.2 whitenoise==6.4.0
